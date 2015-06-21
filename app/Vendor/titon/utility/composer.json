@@ -1,0 +1,34 @@
+{
+    "name": "titon/utility",
+    "type": "library",
+    "description": "The Titon utility package provides convenience classes for basic tasks like validation, formatting, sanitization and more.",
+    "keywords": ["titon", "utility", "crypt", "format", "hash", "inflector", "path", "number", "sanitize", "string", "time", "uuid", "validate", "converter"],
+    "homepage": "http://titon.io",
+    "license": "BSD-2",
+    "authors": [
+        {
+            "name": "Miles Johnson",
+            "homepage": "http://milesj.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "titon/test": "dev-master",
+        "titon/type": "*",
+        "ext-mcrypt": "*",
+        "ext-simplexml": "*",
+        "ext-fileinfo": "*"
+    },
+    "suggest": {
+        "ext-mcrypt": "Encrypt and decrypt data with the Crypt class",
+        "ext-simplexml": "Convert XML to other file types with the Converter class",
+        "ext-fileinfo": "Validate file mime types with the Validate class"
+    },
+    "autoload": {
+        "psr-0": { "Titon\\Utility": "src/" },
+        "files": [ "src/bootstrap.php" ]
+    }
+}

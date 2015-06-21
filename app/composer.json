@@ -1,0 +1,13 @@
+{
+	"config": {
+		"vendor-dir": "Vendor"
+	},
+	"require": {
+		"mjohnson/utility": "1.*",
+		"mjohnson/decoda": "*",
+		"titon/utility": "*",
+		"mjohnson/uploader": "4.*",
+		"mjohnson/forum": "4.*",
+		"mjohnson/forum": "4.*"
+	}
+}

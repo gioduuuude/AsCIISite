@@ -1,0 +1,82 @@
+Custom strings that won't be generated through the shell.
+Will have to manually be added later on.
+
+#: CRUD
+msgid "Create"
+msgstr ""
+
+msgid "Read"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+#: Process Callbacks
+msgid "Recover Tree"
+msgstr ""
+
+msgid "Reorder Tree"
+msgstr ""
+
+msgid "Clear Cache"
+msgstr ""
+
+#: Action Logs
+msgid "action_log.other"
+msgstr "%s did something with %s"
+
+msgid "action_log.create"
+msgstr "%s created %s %s"
+
+msgid "action_log.read"
+msgstr "%s viewed %s %s"
+
+msgid "action_log.update"
+msgstr "%s updated %s %s"
+
+msgid "action_log.delete"
+msgstr "%s deleted %s %s"
+
+msgid "action_log.batch_delete"
+msgstr "%s deleted multiple %s"
+
+msgid "action_log.process"
+msgstr "%s processed %s %s"
+
+msgid "action_log.batch_process"
+msgstr "%s processed multiple %s"
+
+#: AROs
+msgid "aro.administrator"
+msgstr "Administrator"
+
+msgid "aro.superModerator"
+msgstr "Super Moderator"
+
+#: Item Reports
+msgid "item_report.type.0"
+msgstr "Other"
+
+msgid "item_report.type.1"
+msgstr "Violence / Fighting"
+
+msgid "item_report.type.2"
+msgstr "Offensive / Animal or Child Abuse"
+
+msgid "item_report.type.3"
+msgstr "Hate Crimes / Bullying"
+
+msgid "item_report.type.4"
+msgstr "Dangerous Acts / Self Injury"
+
+msgid "item_report.type.5"
+msgstr "Spam / Fraud / Misleading Advertising"
+
+msgid "item_report.type.6"
+msgstr "Copyright / Infringement"
+
+msgid "item_report.type.7"
+msgstr "Sexual / Nudity"
+
+msgid "item_report.type.8"
+msgstr "Harassment / Threats / Trolling"

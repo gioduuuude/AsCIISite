@@ -1,0 +1,1 @@
+<span class="type string"><?php echo h($value); ?></span>

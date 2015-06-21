@@ -1,0 +1,911 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin Plugin\n"
+"POT-Creation-Date: 2013-08-12 18:11-0700\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: Miles Johnson <mileswjohnson@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+
+#: /Config/bootstrap.php:36
+msgid "Admin"
+msgstr ""
+
+#: /Config/bootstrap.php:170
+#: /View/Acl/index.ctp:2
+#: /View/Upload/index.ctp:114
+msgid "ACL"
+msgstr ""
+
+#: /Config/bootstrap.php:174
+#: /View/Elements/admin/actions.ctp:25
+#: /View/Logs/index.ctp:2
+#: /View/Logs/read.ctp:2
+msgid "Logs"
+msgstr ""
+
+#: /Config/bootstrap.php:178
+#: /View/Reports/index.ctp:2
+#: /View/Reports/read.ctp:2
+msgid "Reports"
+msgstr ""
+
+#: /Config/bootstrap.php:182
+#: /View/Upload/index.ctp:2;364
+msgid "Upload"
+msgstr ""
+
+#: /Controller/AclController.php:36
+msgid "Invalid ARO/ACO IDs"
+msgstr ""
+
+#: /Controller/AclController.php:43
+msgid "Invalid ARO/ACO Records"
+msgstr ""
+
+#: /Controller/AclController.php:55
+msgid "Successfully granted %s permission to %s"
+msgstr ""
+
+#: /Controller/AclController.php:57
+msgid "Failed to grant %s permission to %s"
+msgstr ""
+
+#: /Controller/AdminAppController.php:78
+msgid "Invalid User"
+msgstr ""
+
+#: /Controller/AdminAppController.php:91
+#: /Controller/CrudController.php:326
+#: /Controller/ReportsController.php:114
+msgid "Insufficient Access Permissions"
+msgstr ""
+
+#: /Controller/CrudController.php:34
+msgid "Batch Access Protected"
+msgstr ""
+
+#: /Controller/CrudController.php:61
+msgid "%s %s have been processed"
+msgstr ""
+
+#: /Controller/CrudController.php:90
+msgid "Successfully created a new %s"
+msgstr ""
+
+#: /Controller/CrudController.php:94
+msgid "Failed to create a new %s"
+msgstr ""
+
+#: /Controller/CrudController.php:117;150;198;250
+#: /Controller/ReportsController.php:49
+msgid "%s Not Found"
+msgstr ""
+
+#: /Controller/CrudController.php:138
+msgid "Update Access Protected"
+msgstr ""
+
+#: /Controller/CrudController.php:163
+msgid "Successfully updated %s with ID %s"
+msgstr ""
+
+#: /Controller/CrudController.php:167
+msgid "Failed to update %s with ID %s"
+msgstr ""
+
+#: /Controller/CrudController.php:186
+msgid "Delete Access Protected"
+msgstr ""
+
+#: /Controller/CrudController.php:205
+#: /Controller/ReportsController.php:69
+msgid "Successfully deleted %s with ID %s"
+msgstr ""
+
+#: /Controller/CrudController.php:209
+msgid "Failed to delete %s with ID %s"
+msgstr ""
+
+#: /Controller/CrudController.php:231
+msgid "Missing Query"
+msgstr ""
+
+#: /Controller/CrudController.php:256;279
+#: /Controller/ReportsController.php:76
+msgid "Triggered %s.%s() process"
+msgstr ""
+
+#: /Controller/CrudController.php:257
+msgid "Processed %s.%s() for ID %s"
+msgstr ""
+
+#: /Controller/CrudController.php:260;283
+msgid "%s does not allow this process"
+msgstr ""
+
+#: /Controller/CrudController.php:280
+msgid "Processed %s.%s() for %s"
+msgstr ""
+
+#: /Controller/CrudController.php:301;340
+msgid "Invalid Model"
+msgstr ""
+
+#: /Controller/CrudController.php:308
+msgid "Restricted Model"
+msgstr ""
+
+#: /Controller/LogsController.php:36
+msgid "%s Log Not Found"
+msgstr ""
+
+#: /Controller/LogsController.php:41
+msgid "Can not read %s as it exceeds 2MB"
+msgstr ""
+
+#: /Controller/ReportsController.php:70
+msgid "Via item report #%s"
+msgstr ""
+
+#: /Controller/ReportsController.php:77
+msgid "%s.%s() via item report #%s"
+msgstr ""
+
+#: /Controller/ReportsController.php:81
+msgid "Invalid Report Action"
+msgstr ""
+
+#: /Controller/ReportsController.php:84
+msgid "Changed report status to %s"
+msgstr ""
+
+#: /Controller/UploadController.php:24
+msgid "Successfully uploaded a new file"
+msgstr ""
+
+#: /Controller/Component/AdminToolbarComponent.php:229
+msgid "Invalid log action type"
+msgstr ""
+
+#: /Controller/Component/AdminToolbarComponent.php:358
+msgid "Invalid item report type"
+msgstr ""
+
+#: /View/Acl/index.ctp:7
+msgid "Access Control Lists"
+msgstr ""
+
+#: /View/Acl/index.ctp:11
+msgid "ACL is divided into 3 parts: objects requesting access (AROs), objects being controlled (ACOs), and permissions providing CRUD access between requesters and controllers."
+msgstr ""
+
+#: /View/Acl/index.ctp:12
+msgid "Learn more about how ACL permissions work."
+msgstr ""
+
+#: /View/Acl/index.ctp:77
+msgid "Has Access"
+msgstr ""
+
+#: /View/Acl/index.ctp:81
+msgid "Inherited from %s"
+msgstr ""
+
+#: /View/Acl/index.ctp:85
+msgid "Restricted Access"
+msgstr ""
+
+#: /View/Acl/index.ctp:99
+msgid "No access defined. Grant permission?"
+msgstr ""
+
+#: /View/Admin/cache.ctp:2;7
+#: /View/Elements/admin/actions.ctp:17
+msgid "Cache"
+msgstr ""
+
+#: /View/Admin/config.ctp:2;7
+#: /View/Elements/admin/actions.ctp:13
+msgid "Configuration"
+msgstr ""
+
+#: /View/Admin/index.ctp:4
+msgid "ACL permissions do not exist within the session and all access has been disabled."
+msgstr ""
+
+#: /View/Admin/index.ctp:5
+msgid "Please update session management and re-login."
+msgstr ""
+
+#: /View/Admin/index.ctp:12
+#: /View/Elements/admin/actions.ctp:5
+msgid "Plugins"
+msgstr ""
+
+#: /View/Admin/index.ctp:41
+#: /View/Helper/AdminHelper.php:396
+msgid "Add"
+msgstr ""
+
+#: /View/Admin/index.ctp:51
+msgid "Not Installed"
+msgstr ""
+
+#: /View/Admin/models.ctp:2;7
+#: /View/Elements/admin/actions.ctp:9
+msgid "Models"
+msgstr ""
+
+#: /View/Admin/models.ctp:14
+msgid "Model"
+msgstr ""
+
+#: /View/Admin/models.ctp:15
+msgid "Primary Key"
+msgstr ""
+
+#: /View/Admin/models.ctp:15
+msgid "PK"
+msgstr ""
+
+#: /View/Admin/models.ctp:16
+msgid "Display Field"
+msgstr ""
+
+#: /View/Admin/models.ctp:17
+msgid "Database"
+msgstr ""
+
+#: /View/Admin/models.ctp:18
+msgid "Table"
+msgstr ""
+
+#: /View/Admin/models.ctp:19
+msgid "Schema"
+msgstr ""
+
+#: /View/Admin/models.ctp:20
+msgid "Behaviors"
+msgstr ""
+
+#: /View/Admin/models.ctp:21
+msgid "Belongs To"
+msgstr ""
+
+#: /View/Admin/models.ctp:22
+#: /View/Elements/crud/read_extra.ctp:3
+msgid "Has One"
+msgstr ""
+
+#: /View/Admin/models.ctp:23
+#: /View/Elements/crud/read_extra.ctp:4
+msgid "Has Many"
+msgstr ""
+
+#: /View/Admin/models.ctp:24
+#: /View/Elements/crud/read_extra.ctp:5
+msgid "Has and Belongs to Many"
+msgstr ""
+
+#: /View/Admin/models.ctp:24
+msgid "HABTM"
+msgstr ""
+
+#: /View/Admin/routes.ctp:2;30
+#: /View/Elements/admin/actions.ctp:21
+msgid "Routes"
+msgstr ""
+
+#: /View/Admin/routes.ctp:37
+msgid "Route"
+msgstr ""
+
+#: /View/Admin/routes.ctp:38
+msgid "Pattern"
+msgstr ""
+
+#: /View/Admin/routes.ctp:39
+msgid "Defaults"
+msgstr ""
+
+#: /View/Admin/routes.ctp:40
+msgid "Options"
+msgstr ""
+
+#: /View/Crud/delete.ctp:8
+#: /View/Crud/index.ctp:115
+#: /View/Elements/crud/actions.ctp:25
+#: /View/Reports/read.ctp:33
+msgid "Delete %s"
+msgstr ""
+
+#: /View/Crud/delete.ctp:12
+msgid "Are you sure you want to delete %s?"
+msgstr ""
+
+#: /View/Crud/form.ctp:3
+#: /View/Elements/crud/actions.ctp:13
+msgid "Add %s"
+msgstr ""
+
+#: /View/Crud/form.ctp:6
+#: /View/Elements/crud/actions.ctp:19
+msgid "Edit %s"
+msgstr ""
+
+#: /View/Crud/index.ctp:67
+#: /View/Elements/admin/config.ctp:68
+msgid "View"
+msgstr ""
+
+#: /View/Crud/index.ctp:73
+msgid "Edit"
+msgstr ""
+
+#: /View/Crud/index.ctp:79
+msgid "Delete"
+msgstr ""
+
+#: /View/Crud/index.ctp:100
+#: /View/Logs/index.ctp:91
+#: /View/Logs/read.ctp:89
+#: /View/Reports/index.ctp:76
+msgid "No results to display"
+msgstr ""
+
+#: /View/Crud/index.ctp:142
+msgid "Batch Process"
+msgstr ""
+
+#: /View/Elements/filters.ctp:33
+#: /View/Elements/input.ctp:41
+msgid "Belongs To Lookup"
+msgstr ""
+
+#: /View/Elements/filters.ctp:57
+msgid "Equals"
+msgstr ""
+
+#: /View/Elements/filters.ctp:58
+msgid "Not Equals"
+msgstr ""
+
+#: /View/Elements/filters.ctp:59
+msgid "Greater Than"
+msgstr ""
+
+#: /View/Elements/filters.ctp:60
+msgid "Greater Than or Equal"
+msgstr ""
+
+#: /View/Elements/filters.ctp:61
+msgid "Less Than"
+msgstr ""
+
+#: /View/Elements/filters.ctp:62
+msgid "Less Than or Equal"
+msgstr ""
+
+#: /View/Elements/filters.ctp:92
+#: /View/Elements/button/filter.ctp:2
+msgid "Filter"
+msgstr ""
+
+#: /View/Elements/filters.ctp:96
+#: /View/Elements/form_actions.ctp:52
+msgid "Reset"
+msgstr ""
+
+#: /View/Elements/form_actions.ctp:3
+msgid "List of %s"
+msgstr ""
+
+#: /View/Elements/form_actions.ctp:4
+msgid "Create new %s"
+msgstr ""
+
+#: /View/Elements/form_actions.ctp:9
+msgid "Continue Editing"
+msgstr ""
+
+#: /View/Elements/form_actions.ctp:10
+#: /View/Upload/index.ctp:357
+msgid "%s Overview"
+msgstr ""
+
+#: /View/Elements/form_actions.ctp:40
+msgid "Yes, Delete"
+msgstr ""
+
+#: /View/Elements/form_actions.ctp:57
+msgid "Cancel"
+msgstr ""
+
+#: /View/Elements/input.ctp:86
+msgid "Empty?"
+msgstr ""
+
+#: /View/Elements/navigation.ctp:23
+msgid "View Site"
+msgstr ""
+
+#: /View/Elements/navigation.ctp:26
+msgid "View Profile"
+msgstr ""
+
+#: /View/Elements/navigation.ctp:29
+msgid "Settings"
+msgstr ""
+
+#: /View/Elements/navigation.ctp:34
+msgid "Logout"
+msgstr ""
+
+#: /View/Elements/pagination.ctp:9
+msgid "First"
+msgstr ""
+
+#: /View/Elements/pagination.ctp:10
+msgid "Last"
+msgstr ""
+
+#: /View/Elements/pagination.ctp:20
+msgid "Showing %s-%s of %s"
+msgstr ""
+
+#: /View/Elements/acl/actions.ctp:3
+msgid "Add Requester"
+msgstr ""
+
+#: /View/Elements/acl/actions.ctp:7
+msgid "Add Controller"
+msgstr ""
+
+#: /View/Elements/admin/config.ctp:84
+msgid "Close"
+msgstr ""
+
+#: /View/Elements/button/process_behavior.ctp:6
+#: /View/Elements/button/process_model.ctp:6
+msgid "Process"
+msgstr ""
+
+#: /View/Elements/crud/dependencies.ctp:4
+msgid "The associated records in the following models will also be deleted."
+msgstr ""
+
+#: /View/Elements/crud/form_extra.ctp:13
+msgid "Associate With"
+msgstr ""
+
+#: /View/Elements/crud/has_and_belongs_to_many.ctp:17
+#: /View/Elements/crud/has_many.ctp:16
+msgid "%s of %s"
+msgstr ""
+
+#: /View/Elements/field/boolean.ctp:3
+#: /View/Elements/input/filter.ctp:20
+msgid "Yes"
+msgstr ""
+
+#: /View/Elements/field/boolean.ctp:7
+#: /View/Elements/input/filter.ctp:20
+msgid "No"
+msgstr ""
+
+#: /View/Helper/AdminHelper.php:127
+msgid "No Title"
+msgstr ""
+
+#: /View/Layouts/admin.ctp:27
+msgid "Dashboard"
+msgstr ""
+
+#: /View/Layouts/admin.ctp:36
+msgid "Powered by the %s v%s"
+msgstr ""
+
+#: /View/Layouts/admin.ctp:37
+msgid "Created by %s"
+msgstr ""
+
+#: /View/Logs/read.ctp:3
+msgid "System"
+msgstr ""
+
+#: /View/Logs/read.ctp:9
+msgid "System Logs"
+msgstr ""
+
+#: /View/Logs/read.ctp:16
+msgid "Code"
+msgstr ""
+
+#: /View/Logs/read.ctp:17
+msgid "Exception"
+msgstr ""
+
+#: /View/Logs/read.ctp:18
+msgid "URL"
+msgstr ""
+
+#: /View/Logs/read.ctp:19
+msgid "Message"
+msgstr ""
+
+#: /View/Logs/read.ctp:20
+msgid "Count"
+msgstr ""
+
+#: /View/Logs/read.ctp:21
+msgid "Date"
+msgstr ""
+
+#: /View/Reports/index.ctp:8
+msgid "Pending Reports"
+msgstr ""
+
+#: /View/Reports/index.ctp:11
+msgid "Resolved Reports"
+msgstr ""
+
+#: /View/Reports/read.ctp:17
+msgid "Reported %s"
+msgstr ""
+
+#: /View/Reports/read.ctp:39
+msgid "Mark As Invalid"
+msgstr ""
+
+#: /View/Reports/read.ctp:65
+msgid "Process Report"
+msgstr ""
+
+#: /View/Upload/index.ctp:8
+msgid "View All Uploads"
+msgstr ""
+
+#: /View/Upload/index.ctp:20
+msgid "Upload all types of files with no restrictions. Uploading also supports image transformation and remote transportation."
+msgstr ""
+
+#: /View/Upload/index.ctp:21
+msgid "Learn more about file uploading."
+msgstr ""
+
+#: /View/Upload/index.ctp:30
+msgid "File"
+msgstr ""
+
+#: /View/Upload/index.ctp:37
+msgid "Caption"
+msgstr ""
+
+#: /View/Upload/index.ctp:42
+msgid "Transport To"
+msgstr ""
+
+#: /View/Upload/index.ctp:47
+msgid "Service"
+msgstr ""
+
+#: /View/Upload/index.ctp:51
+msgid "None"
+msgstr ""
+
+#: /View/Upload/index.ctp:52
+msgid "AWS S3"
+msgstr ""
+
+#: /View/Upload/index.ctp:53
+msgid "AWS Glacier"
+msgstr ""
+
+#: /View/Upload/index.ctp:61
+msgid "Access Key"
+msgstr ""
+
+#: /View/Upload/index.ctp:67
+msgid "Secret Key"
+msgstr ""
+
+#: /View/Upload/index.ctp:73
+msgid "Region"
+msgstr ""
+
+#: /View/Upload/index.ctp:75
+msgid "US East - Virginia"
+msgstr ""
+
+#: /View/Upload/index.ctp:76
+msgid "US West - California"
+msgstr ""
+
+#: /View/Upload/index.ctp:77
+msgid "US West 2 - Oregon"
+msgstr ""
+
+#: /View/Upload/index.ctp:78
+msgid "EU West - Ireland"
+msgstr ""
+
+#: /View/Upload/index.ctp:79
+msgid "AP Southeast - Singapore"
+msgstr ""
+
+#: /View/Upload/index.ctp:80
+msgid "AP Southeast 2 - Sydney"
+msgstr ""
+
+#: /View/Upload/index.ctp:81
+msgid "AP Northeast - Tokyo"
+msgstr ""
+
+#: /View/Upload/index.ctp:82
+msgid "SA East - Sao Paulo"
+msgstr ""
+
+#: /View/Upload/index.ctp:92
+msgid "Bucket"
+msgstr ""
+
+#: /View/Upload/index.ctp:98;197
+msgid "Folder"
+msgstr ""
+
+#: /View/Upload/index.ctp:99;198
+msgid "Requires trailing slash"
+msgstr ""
+
+#: /View/Upload/index.ctp:105
+msgid "Scheme"
+msgstr ""
+
+#: /View/Upload/index.ctp:116
+msgid "Public Read"
+msgstr ""
+
+#: /View/Upload/index.ctp:117
+msgid "Public Read Write"
+msgstr ""
+
+#: /View/Upload/index.ctp:118
+msgid "Authenticated Read"
+msgstr ""
+
+#: /View/Upload/index.ctp:119
+msgid "Bucket Owner Read"
+msgstr ""
+
+#: /View/Upload/index.ctp:120
+msgid "Bucket Owner Full Control"
+msgstr ""
+
+#: /View/Upload/index.ctp:121
+msgid "Private"
+msgstr ""
+
+#: /View/Upload/index.ctp:131
+msgid "Vault"
+msgstr ""
+
+#: /View/Upload/index.ctp:137
+msgid "Account ID"
+msgstr ""
+
+#: /View/Upload/index.ctp:147
+msgid "Resized"
+msgstr ""
+
+#: /View/Upload/index.ctp:148
+msgid "Thumbnail"
+msgstr ""
+
+#: /View/Upload/index.ctp:160
+msgid "Generate image"
+msgstr ""
+
+#: /View/Upload/index.ctp:170
+msgid "Method"
+msgstr ""
+
+#: /View/Upload/index.ctp:173
+msgid "Crop"
+msgstr ""
+
+#: /View/Upload/index.ctp:174
+msgid "Resize"
+msgstr ""
+
+#: /View/Upload/index.ctp:175
+msgid "Flip"
+msgstr ""
+
+#: /View/Upload/index.ctp:176
+msgid "Scale"
+msgstr ""
+
+#: /View/Upload/index.ctp:177
+msgid "Rotate"
+msgstr ""
+
+#: /View/Upload/index.ctp:178
+msgid "Fit"
+msgstr ""
+
+#: /View/Upload/index.ctp:185
+msgid "Prepend"
+msgstr ""
+
+#: /View/Upload/index.ctp:191
+msgid "Append"
+msgstr ""
+
+#: /View/Upload/index.ctp:206;223
+msgid "Width"
+msgstr ""
+
+#: /View/Upload/index.ctp:212;224
+msgid "Height"
+msgstr ""
+
+#: /View/Upload/index.ctp:221
+msgid "Mode"
+msgstr ""
+
+#: /View/Upload/index.ctp:233
+msgid "Allow greater than current dimension"
+msgstr ""
+
+#: /View/Upload/index.ctp:243
+msgid "Maintain aspect ratio"
+msgstr ""
+
+#: /View/Upload/index.ctp:254
+msgid "Location"
+msgstr ""
+
+#: /View/Upload/index.ctp:256
+msgid "Center"
+msgstr ""
+
+#: /View/Upload/index.ctp:257
+msgid "Top"
+msgstr ""
+
+#: /View/Upload/index.ctp:258
+msgid "Right"
+msgstr ""
+
+#: /View/Upload/index.ctp:259
+msgid "Bottom"
+msgstr ""
+
+#: /View/Upload/index.ctp:260
+msgid "Left"
+msgstr ""
+
+#: /View/Upload/index.ctp:270
+msgid "Direction"
+msgstr ""
+
+#: /View/Upload/index.ctp:272
+msgid "Vertical"
+msgstr ""
+
+#: /View/Upload/index.ctp:273
+msgid "Horizontal"
+msgstr ""
+
+#: /View/Upload/index.ctp:274
+msgid "Both"
+msgstr ""
+
+#: /View/Upload/index.ctp:284
+msgid "Percent"
+msgstr ""
+
+#: /View/Upload/index.ctp:295
+msgid "Degrees"
+msgstr ""
+
+#: /View/Upload/index.ctp:304
+msgid "Fill"
+msgstr ""
+
+#: /View/Upload/index.ctp:356
+msgid "Continue Uploading"
+msgstr ""
+
+#: /View/Upload/index.ctp:374
+msgid "Install the Uploader to upload files"
+msgstr ""
+
+#: /View/Upload/index.ctp:378
+msgid "Install"
+msgstr ""
+
+#: CRUD
+msgid "Create"
+msgstr ""
+
+msgid "Read"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+#: Process Callbacks
+msgid "Recover Tree"
+msgstr ""
+
+msgid "Reorder Tree"
+msgstr ""
+
+msgid "Clear Cache"
+msgstr ""
+
+#: Action Logs
+msgid "action_log.other"
+msgstr "%s did something with %s"
+
+msgid "action_log.create"
+msgstr "%s created %s %s"
+
+msgid "action_log.read"
+msgstr "%s viewed %s %s"
+
+msgid "action_log.update"
+msgstr "%s updated %s %s"
+
+msgid "action_log.delete"
+msgstr "%s deleted %s %s"
+
+msgid "action_log.batch_delete"
+msgstr "%s deleted multiple %s"
+
+msgid "action_log.process"
+msgstr "%s processed %s %s"
+
+msgid "action_log.batch_process"
+msgstr "%s processed multiple %s"
+
+#: AROs
+msgid "aro.administrator"
+msgstr "Administrator"
+
+msgid "aro.superModerator"
+msgstr "Super Moderator"
+
+#: Item Reports
+msgid "item_report.type.0"
+msgstr "Other"
+
+msgid "item_report.type.1"
+msgstr "Violence / Fighting"
+
+msgid "item_report.type.2"
+msgstr "Offensive / Animal or Child Abuse"
+
+msgid "item_report.type.3"
+msgstr "Hate Crimes / Bullying"
+
+msgid "item_report.type.4"
+msgstr "Dangerous Acts / Self Injury"
+
+msgid "item_report.type.5"
+msgstr "Spam / Fraud / Misleading Advertising"
+
+msgid "item_report.type.6"
+msgstr "Copyright / Infringement"
+
+msgid "item_report.type.7"
+msgstr "Sexual / Nudity"
+
+msgid "item_report.type.8"
+msgstr "Harassment / Threats / Trolling"
